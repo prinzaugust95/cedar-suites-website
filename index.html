@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cedar Suites Jalingo — a comfortable hotel in Jalingo, Taraba State. Explore rooms, dining, amenities and contact details.">
+  <title>Cedar Suites | Jalingo, Taraba</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">
+      <span class="brand-mark">CS</span>
+      <span>Cedar <b>Suites</b></span>
+    </a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#rooms">Rooms</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="#booking">Book Now</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO JALINGO</p>
+        <h1>Comfort that feels<br><em>like home.</em></h1>
+        <p class="hero-copy">A calm and welcoming stay in the heart of Jalingo, Taraba State.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#booking">Check Availability</a>
+          <a class="btn ghost" href="#rooms">Explore Rooms</a>
+        </div>
+      </div>
+      <div class="hero-badge">
+        <strong>4.0 ★</strong>
+        <span>Google rating · 72 reviews</span>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <div>
+        <p class="eyebrow dark">CEDAR SUITES</p>
+        <h2>A better stay<br>starts here.</h2>
+      </div>
+      <div class="intro-text">
+        <p>Cedar Suites is a 4-star hotel in Jalingo, designed for guests looking for a comfortable and convenient place to stay.</p>
+        <p class="muted">Behind the Ministry of Rural Development, Jalingo, Taraba State.</p>
+      </div>
+    </section>
+
+    <section id="rooms" class="section rooms">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow dark">STAY YOUR WAY</p>
+          <h2>Rooms & Suites</h2>
+        </div>
+        <p>Room types, photos and current rates can be updated here by the hotel.</p>
+      </div>
+      <div class="room-grid">
+        <article class="room-card">
+          <div class="room-img room-one"><span>ROOM PHOTO</span></div>
+          <div class="room-body">
+            <p class="small-label">01 · COMFORT</p>
+            <h3>Standard Room</h3>
+            <p>A comfortable option for guests looking for a simple, relaxing stay.</p>
+            <div class="room-foot"><span>Price on request</span><a href="#booking">Enquire →</a></div>
+          </div>
+        </article>
+        <article class="room-card">
+          <div class="room-img room-two"><span>ROOM PHOTO</span></div>
+          <div class="room-body">
+            <p class="small-label">02 · PREMIUM</p>
+            <h3>Executive Suite</h3>
+            <p>Extra space and a more premium experience for business or leisure stays.</p>
+            <div class="room-foot"><span>Price on request</span><a href="#booking">Enquire →</a></div>
+          </div>
+        </article>
+        <article class="room-card">
+          <div class="room-img room-three"><span>ROOM PHOTO</span></div>
+          <div class="room-body">
+            <p class="small-label">03 · LUXURY</p>
+            <h3>Premium Suite</h3>
+            <p>A spacious stay for guests who want added comfort and privacy.</p>
+            <div class="room-foot"><span>Price on request</span><a href="#booking">Enquire →</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="amenities" class="amenities section">
+      <div class="amenities-inner">
+        <div>
+          <p class="eyebrow">MAKE YOURSELF AT HOME</p>
+          <h2>Everything you need<br>for a pleasant stay.</h2>
+        </div>
+        <div class="amenity-grid">
+          <div><span>01</span><h3>Restaurant</h3><p>On-site dining for convenient meals.</p></div>
+          <div><span>02</span><h3>Bar & Lounge</h3><p>A relaxed space to unwind.</p></div>
+          <div><span>03</span><h3>Laundry</h3><p>Laundry service for longer stays.</p></div>
+          <div><span>04</span><h3>Family Friendly</h3><p>A welcoming option for families.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow dark">A GLIMPSE INSIDE</p>
+          <h2>Gallery</h2>
+        </div>
+        <p>Replace these demo panels with the hotel's real photos before launch.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item g1">HOTEL PHOTO</div>
+        <div class="gallery-item g2">ROOM PHOTO</div>
+        <div class="gallery-item g3">DINING PHOTO</div>
+        <div class="gallery-item g4">LOUNGE PHOTO</div>
+      </div>
+    </section>
+
+    <section id="booking" class="booking section">
+      <div class="booking-copy">
+        <p class="eyebrow">PLAN YOUR STAY</p>
+        <h2>Ready to make a reservation?</h2>
+        <p>Send an enquiry and the hotel can confirm room availability and current rates.</p>
+      </div>
+      <form id="bookingForm" class="booking-form">
+        <input type="text" id="guestName" placeholder="Your name" required>
+        <input type="tel" id="guestPhone" placeholder="Phone / WhatsApp number" required>
+        <select id="roomType">
+          <option>Standard Room</option>
+          <option>Executive Suite</option>
+          <option>Premium Suite</option>
+        </select>
+        <div class="date-row">
+          <input type="date" id="checkIn" required>
+          <input type="date" id="checkOut" required>
+        </div>
+        <button class="btn primary full" type="submit">Send Booking Enquiry</button>
+        <small id="formMessage"></small>
+      </form>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div>
+        <p class="eyebrow dark">FIND US</p>
+        <h2>Come stay with us.</h2>
+        <p class="contact-address">Behind Ministry of Rural Development,<br>Jalingo 660213, Taraba, Nigeria.</p>
+        <a class="map-link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Cedar+Suites+Jalingo+Taraba">Open in Google Maps →</a>
+      </div>
+      <div class="contact-card">
+        <p class="small-label">RESERVATIONS</p>
+        <h3>Call or WhatsApp</h3>
+        <p class="muted">Hotel phone number to be added after confirmation.</p>
+        <a class="btn dark-btn" href="#booking">Make an Enquiry</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="brand-mark">CS</span><span>Cedar Suites</span></div>
+    <p>© <span id="year"></span> Cedar Suites, Jalingo. Demo website prepared by August Prinz Digital.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
